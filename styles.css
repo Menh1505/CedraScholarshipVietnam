@@ -384,14 +384,14 @@ h1 {
 }
 
 .btn.primary {
-    background: #FF6B35;
+    background: var(--royal-blue);
     color: var(--pure-white);
-    box-shadow: 0 8px 24px rgba(255, 107, 53, 0.4);
+    box-shadow: 0 8px 24px rgba(0, 82, 255, 0.4);
 }
 
 .btn.primary:hover {
-    background: #E55A25;
-    box-shadow: 0 12px 32px rgba(255, 107, 53, 0.6);
+    background: #0041CC;
+    box-shadow: 0 12px 32px rgba(0, 82, 255, 0.6);
     opacity: 1;
 }
 
@@ -512,7 +512,7 @@ section.light-bg {
 }
 
 .feature-item:hover {
-    border-left-color: #FF6B35;
+    border-left-color: var(--royal-blue);
     transform: translateX(4px);
 }
 
@@ -664,10 +664,10 @@ section.light-bg {
 .program-header .section-label {
     display: inline-block;
     padding: 8px 16px;
-    background: rgba(255, 107, 53, 0.15);
-    border: 1px solid rgba(255, 107, 53, 0.3);
+    background: rgba(0, 82, 255, 0.15);
+    border: 1px solid rgba(0, 82, 255, 0.3);
     border-radius: 999px;
-    color: #FF6B35;
+    color: var(--royal-blue);
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
@@ -721,7 +721,7 @@ section.light-bg {
     left: -2px;
     right: -2px;
     bottom: -2px;
-    background: linear-gradient(135deg, rgba(255, 107, 53, 0.3), rgba(255, 140, 90, 0.1));
+    background: linear-gradient(135deg, rgba(0, 82, 255, 0.3), rgba(0, 82, 255, 0.1));
     border-radius: var(--radius);
     z-index: -1;
     opacity: 0;
@@ -735,7 +735,7 @@ section.light-bg {
     left: 0;
     right: 0;
     height: 3px;
-    background: linear-gradient(90deg, #FF6B35, #FF8C5A);
+    background: linear-gradient(90deg, var(--royal-blue), #0EA5E9);
     transform: scaleX(0);
     transform-origin: left;
     transition: transform 0.4s ease;
@@ -759,7 +759,7 @@ section.light-bg {
 .program-card-icon {
     width: 100px;
     height: 100px;
-    background: linear-gradient(135deg, #FF6B35, #FF8C5A);
+    background: linear-gradient(135deg, var(--royal-blue), #0EA5E9);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -768,7 +768,7 @@ section.light-bg {
     top: -50px;
     left: 50%;
     transform: translateX(-50%);
-    box-shadow: 0 12px 32px rgba(255, 107, 53, 0.5);
+    box-shadow: 0 12px 32px rgba(0, 82, 255, 0.5);
     font-size: 48px;
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     border: 6px solid white;
@@ -776,7 +776,7 @@ section.light-bg {
 
 .program-card:hover .program-card-icon {
     transform: translateX(-50%) scale(1.15);
-    box-shadow: 0 16px 48px rgba(255, 107, 53, 0.6);
+    box-shadow: 0 16px 48px rgba(0, 82, 255, 0.6);
 }
 
 .program-card h3 {
@@ -956,11 +956,11 @@ section.light-bg {
 }
 
 .phase-2 .phase-marker {
-    background: linear-gradient(135deg, #F59E0B, #D97706);
+    background: linear-gradient(135deg, var(--royal-blue), #0EA5E9);
 }
 
 .phase-2 .phase-label {
-    color: #F59E0B;
+    color: var(--royal-blue);
 }
 
 .phase-3 .phase-marker {
@@ -1009,7 +1009,7 @@ section.light-bg {
 }
 
 .projects-label {
-    color: #FF6B35;
+    color: var(--royal-blue);
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
@@ -1027,7 +1027,7 @@ section.light-bg {
 }
 
 .projects-btn {
-    background: #FF6B35;
+    background: var(--royal-blue);
     color: white;
     padding: 16px 40px;
     border: none;
@@ -1043,9 +1043,9 @@ section.light-bg {
 }
 
 .projects-btn:hover {
-    background: #E55A25;
+    background: #0041CC;
     transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(255, 107, 53, 0.3);
+    box-shadow: 0 8px 20px rgba(0, 82, 255, 0.3);
     opacity: 1;
 }
 
@@ -1077,7 +1077,7 @@ section.light-bg {
         linear-gradient(135deg,
             rgba(0, 82, 255, 0.3) 0%,
             rgba(139, 92, 246, 0.3) 50%,
-            rgba(255, 107, 53, 0.3) 100%) border-box;
+            rgba(0, 82, 255, 0.3) 100%) border-box;
 }
 
 .project-card::before {
@@ -1090,7 +1090,7 @@ section.light-bg {
     background: linear-gradient(135deg,
             #0052FF 0%,
             #8B5CF6 50%,
-            #FF6B35 100%);
+            #0052FF 100%);
     border-radius: 16px;
     opacity: 0;
     transition: opacity 0.4s ease;
@@ -1134,7 +1134,7 @@ section.light-bg {
 }
 
 .project-category {
-    color: #FF6B35;
+    color: var(--royal-blue);
     font-size: 12px;
     font-weight: 600;
     text-transform: capitalize;
